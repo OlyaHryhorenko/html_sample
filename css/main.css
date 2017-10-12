@@ -1,0 +1,331 @@
+.first-screen {
+	background-image: url(../img/top-img.png);
+
+}
+
+.second-screen,
+.third-screen,
+.fifth-screen {
+	overflow: hidden;
+}
+
+.after-header {
+	position: relative;
+	width: 100%;
+	/*padding: 100px 10px;*/
+	padding: 0 10px;
+}
+
+.logo-cont {
+	position: relative;
+	padding: 90px 0;
+}
+
+.logo-cont img.sloy {
+	position: absolute;
+	/*width: 100%;*/
+	height: 100%;
+	top: 0;
+	/*left: 0;*/
+	left: 50%;
+    /*height: 475px;*/
+    transform: translateX(-50%);
+} 
+
+.logo-mid {
+	/*width: 52%;*/
+	width: 40%;
+	/*margin: 100px auto;*/
+	position: relative;
+	left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+.logo-cont img.my-logo {
+	display: inline;
+	margin-bottom: 15px;
+	/*width: 50%;*/
+	width: 40%;
+}
+.logo-text {
+	border-top: 1px solid #ffffff;
+	color: #ffffff !important;
+}
+.logo-text h1 {
+	/*font-size: 23pt;*/
+	font-size: 20pt;
+	padding: 5px 60px;
+	margin: 5px 0;
+	font-weight: 400;
+}
+
+a#ord-link {
+	display: inline-block;
+	font-family: Calibry;
+	font-size: 14pt;
+	padding: 10px 50px;
+	/*margin-top: 25px;*/
+	margin-top: 65px;
+}
+a#ord-link:hover {
+	text-decoration: none;
+}
+
+
+.second-screen {
+	padding-bottom: 30px;
+}
+
+
+
+
+.order-cont {
+	padding: 50px 0;
+}
+
+
+.ord-main-part {
+	width: 80%;
+	margin:5px auto;
+	position: relative;
+}
+.ord-main-part label {
+	color: #c9b5d4;
+	font-size: 16pt;
+	padding: 10px;
+}
+
+fieldset#main-form #type-button,
+fieldset#main-form #level-button {
+	color: #000000;
+	border: 0;
+	outline: 0;
+  outline-offset: 0;
+  font-size: 11pt;
+  width: 100%;
+  height: 45px;
+  padding-top: 15px;
+  border-radius: 0;
+}
+
+.ord-main-part select,
+.ord-main-part input {
+	width: 100%;
+	height: 45px;
+	border: 0;
+	color: #000000;
+	font-size: 12pt;
+	border: 0;
+	outline: 0;
+  outline-offset: 0;
+  padding: 0 10px;
+  background-color: #c9b5d4;
+}
+
+.ord-main-part:last-child {
+	margin-bottom: 0;
+}
+
+fieldset#main-form {
+	border: 0;
+	padding: 0;
+}
+
+
+
+.pages {
+	margin: 0;
+}
+#pg-sum {
+	display: inline-block;
+	margin: 0 auto;
+}
+span.plus,
+span.minus,
+i.date {
+	display: inline-block;
+	width: 40px;
+	height: 45px;
+	background-color: #888495;
+	position: absolute;
+}
+input#date.hasDatepicker {
+	padding-left: 15px;
+	top: 50px;
+	width: 100%;
+}
+.number {
+	position: relative;
+}
+span.plus {
+	right: 0;
+	top: 0;
+}
+
+span.minus {
+	left: 0;
+	top: 0;
+}
+i.date {
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
+span.plus img {
+	margin-top: 15px;
+}
+span.minus img {
+	margin-top: 20px;
+}
+ i.date img {
+	margin-top: 7px;
+}
+.date-cont {
+	position: relative;
+	overflow: hidden;
+}
+
+.fild-inputs {
+	clear: both;
+}
+
+
+
+ .continue {
+	width: 88%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.ord-main-part p {
+	margin: 0;
+	padding-top: 5px;
+}
+
+.continue span,
+.continue a {
+	display: block;
+}
+
+.continue span {
+	font-size: 42pt;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.continue a {
+	text-decoration: none;
+	font-size: 24pt;
+	padding: 15px;
+	letter-spacing: 1px
+}
+
+
+
+ .sec-scr-text {
+ 		padding: 0 60px;
+ }
+
+ .sec-scr-text h2 {
+	padding: 20px;
+	font-size: 25pt;
+ }
+
+  .sec-scr-text p {
+  	font-size: 15pt;
+  }
+
+
+.third-cont h2 {
+		width: 70%;
+		margin: 0 auto;
+		font-size: 18pt;
+
+}
+.third-cont h4 {
+	padding: 0 30px;
+	font-size: 11pt;
+}
+.third-cont img {
+	margin: 15px;
+}
+
+.third-part {
+	margin: 15px 0;
+}
+
+
+.four-parts {
+	padding: 50px 10px;
+}
+.four-parts h2 {
+	font-size: 18pt;
+	width: 60%;
+	margin: 10px auto;
+}
+.four-parts h4 {
+	font-family: Century Gothic;
+	font-size: 13pt;
+	width: 65%;
+	margin: 20px auto;
+}
+
+.four-parts img {
+	display: block;
+	margin: 0 auto;
+}
+.four-parts a {
+	font-size: 18pt;
+	padding: 10px 30px;
+	transition: 0.3s;
+	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-icab-transition: 0.3s;
+	text-decoration: none;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.four-parts a:hover {
+	background-color: #784f8e;
+}
+
+
+.fifth-screen {
+	background-color: #545d62;
+	text-align: center;
+}
+.fifth-screen h2 {
+	margin-bottom: 0;
+	font-size: 60pt;
+}
+
+.fifth-screen h3 {
+	font-size: 30pt;
+	margin-top: -25px;
+}
+.fifth-screen h4 {
+	font-size: 18pt;
+}
+
+.fifth-cont h5 {
+	font-size: 14pt;
+}
+
+
+.fifth-parts {
+	padding: 10px 30px;
+}
+
+.sloy-two {
+	width: 50%;
+	margin: 0 auto 20px auto;
+	display: inline-block;
+}
+
+
+

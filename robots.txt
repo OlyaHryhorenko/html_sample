@@ -1,0 +1,27 @@
+User-agent: *
+Disallow: /fonts/
+Disallow: /templates/
+Disallow: /docs/
+Disallow: /*?replytocom=
+Disallow: /*?
+Disallow: /disclaimer.html
+Disallow: /discounts.html
+Disallow: /money-back-guarantee.html
+Disallow: /privacy-policy.html
+Disallow: /revision-policy.html
+Disallow: /terms-and-conditions.html
+Disallow: /plagiarism-free.html
+
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+
+Sitemap: https://myssay.com/sitemap.xml

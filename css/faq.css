@@ -1,0 +1,184 @@
+.faq-screen {
+	background-image: url(../img/faq-img.png);
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	padding: 30px 10px;
+}
+
+
+.faq-cont h1 {
+	border-bottom: 2px solid #ffffff;
+	font-size: 60pt;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.faq-cont h3 {
+	font-size: 14pt;
+	width: 60%;
+	margin: 0px auto 30px auto;
+}
+
+
+.img-top {
+	width: 25%;
+	display: block;
+	margin: 0 auto;
+}
+
+.accardeon {
+	padding: 100px 0;
+}
+.acc-part {
+	width: 98%;
+	margin: 10px 0px;
+	padding: 25px 0px;
+	position: relative;
+	text-align: left;
+}
+
+.acc-part dd {
+	width: 80%;
+	margin-left: 10%;
+	padding-top: 20px;
+	font-size: 12pt;
+}
+.acc-part span {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	left: 5px;
+	top: 20px;
+}
+
+
+
+dt {
+	font-size: 18pt;
+	cursor: pointer;
+	width: 80%;
+	margin-left: 10%;
+
+}
+
+.img-bottom {
+	width: 55%;
+	display: block;
+	margin: 55px auto 35px auto;
+}
+
+
+@media screen and (min-width:1600px) {
+	.faq-cont h1 {
+
+	font-size: 65pt;
+
+}
+
+.faq-cont h3 {
+
+	font-size: 18pt;
+}
+
+
+	dt {
+		font-size: 21pt;
+		margin-left: 7%;
+	}
+	.acc-part dd {
+		font-size: 14pt;
+		margin-left: 7%;
+	}
+	.acc-part span {
+		top: 20px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	dt {
+		font-size: 16pt;
+		margin-left: 20%;
+	}
+	.acc-part dd {
+		font-size: 11pt;
+		margin-left: 20%;
+	}
+	.faq-cont h1 {
+		font-size: 50pt;
+	}
+	.faq-cont h3 {
+		font-size: 12pt;
+	}
+
+}
+
+@media screen and (max-width:670px) {
+	.accardeon {
+		padding: 50px 0;
+	}
+	.faq-cont h1 {
+		font-size: 35pt;
+	}
+	.faq-cont h3 {
+		font-size: 10pt;
+	}
+		dt {
+		font-size: 14pt;
+		margin-left: 20%;
+	}
+	.acc-part dd {
+		font-size: 10pt;
+		margin-left: 20%;
+	}
+
+	.left-part,
+	.right-part {
+		width: 80%;
+		float: none;
+		margin: 0 auto;
+	}
+	.right-part {
+		margin-bottom: 70px;
+	}
+	.left-part {
+		padding-bottom: 0px;
+	}
+	.img-bottom {
+		margin-top: 30px;
+	}
+	.faq-screen {
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.accardeon {
+		padding: 30px 0;
+	}
+	.faq-cont h1 {
+		font-size: 25pt;
+	}
+	.faq-cont h3 {
+		font-size: 9pt;
+	}
+		dt {
+		font-size: 10pt;
+		margin-left: 17%
+	}
+	.acc-part dd {
+		font-size: 9pt;
+		margin-left: 17%;
+	}
+
+	.acc-part span {
+		width: 15px;
+		height: 15px;
+		left: 20px;
+		top: 25px;
+	}
+		.img-bottom {
+		margin-top: 0px;
+	}
+}

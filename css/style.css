@@ -1,0 +1,226 @@
+﻿body {
+	min-width: 320px;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: Californian FB;
+	src:url(../fonts/Californian_FB.ttf);
+}
+
+.first-screen,
+.faq-screen,
+.ord-first-screen,
+.price-screen,
+.samples-screen {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+	-o-background-attachment: inherit;
+	-webkit-background-attachment: inherit;
+	-moz-background-attachment: inherit;
+	-ms-background-attachment: inherit;
+	-icab-background-attachment: inherit;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.logo-cont,
+ .sec-scr-cont,
+  .third-cont,
+  .four-cont,
+  .fifth-cont,
+  .faq-cont,
+  .ord-frst-cont,
+  .sec-screen-con,
+  .samples-cont {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.logo-text p,
+.logo-text h1,
+.ord-main-part label,
+.continue span,
+.continue a,
+ .sec-scr-text,
+ .third-cont h2,
+ .four-parts h2,
+ .four-parts a,
+ .fifth-screen,
+ .faq-cont h1,
+ .ord-frst-cont h1,
+ #paper label,
+ #conditions,
+ #reg input#submit,
+#login input#submit,
+table th,
+.samples-cont h1,
+.samples-cont h4  {
+		font-family: Californian FB;
+}
+.third-cont h4,
+.fifth-cont h5,
+.faq-cont,
+.total-date,
+.sec-screen-con,
+.price-screen  {
+		font-family: Arial;
+}
+
+
+a#ord-link,
+ .order-screen,
+ span#tot_price,
+ #reg input#submit:hover,
+#login input#submit:hover {
+		background-color: #784f8e;
+}
+
+.second-screen,
+.four-screen,
+.registration-cont {
+		background-color: #606a70;
+}
+
+  .third-screen {
+  	background-color: #565f65;
+  }
+
+   .sec-scr-text h1,
+   .third-cont h2,
+   .third-cont h4,
+   .four-parts h2,
+   .four-parts h4,
+   .fifth-screen h1,
+   .fifth-screen h3,
+   .fifth-screen h4,
+   .fifth-cont h5,
+   .faq-cont h1,
+   .faq-cont h3,
+   .ord-frst-cont h1,
+   #paper label,
+   #conditions,
+   .sec-screen-con h2,
+   #reg label,
+#login label,
+.samples-cont h1,
+.samples-cont h3,
+.samples-cont h4  {
+   		font-weight: normal;
+   }
+
+   .logo-text p, .logo-text h1,
+   a#ord-link,
+   .third-cont,
+   .continue span,
+	.continue a,
+	.sec-scr-text,
+	.four-parts,
+	.four-parts a,
+	.fifth-screen,
+	.faq-screen,
+	.acc-part dd,
+	.ord-first-screen,
+	#paper input,
+#paper textarea,
+#level-button,
+#type-button,
+#format-button,
+#paper-type-button,
+#subject-button,
+#conditions,
+.total-price,
+.sec-screen-con,
+#reg input#submit,
+#login input#submit,
+.price-screen,
+.samples-screen ,
+.ex-text {
+   		color: #ffffff;
+   }
+
+  .mist-rot,
+  .img-rot,
+  .sec-screen-con img {
+		transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		-webkit-transform: rotate(180deg);
+		-icab-transform: rotate(180deg);
+}
+
+.logo-cont,
+.order-cont,
+#pg-sum,
+span.plus,
+span.minus,
+i.date,
+.continue,
+.sec-scr-text,
+.third-cont,
+.third-cont h2,
+.four-parts,
+.faq-screen,
+.ord-first-screen,
+.sec-screen-con,
+.price-screen,
+.samples-screen,
+.ex-text {
+	text-align: center;
+}
+
+.third-cont i{
+  margin: 15px;
+}
+.cont_text{
+  text-align: justify;
+}
+.cont_text_title, .cont_text h2{
+  text-align: center;
+  color: #ffefc8;
+}
+.cont_text span{
+  color: #ffefc8;
+}
+
+.not_found_text h1, .not_found_text p{
+  text-align: center;
+}
+.not_found_text h1{
+  font-size: 120px;
+}
+.not_found_text p{
+  font-size: 20px;
+}
+
+h3.ital{
+  font-style: italic;
+}
+
+.foon-nav.footer_seo_text{
+  margin: -10px 15px 10px;
+}
+.foon-nav.footer_seo_text a{
+  font-size: 18px;
+}
+.foon-nav.footer_text{
+  margin: 0 15px 20px;
+}
+.foon-nav.footer_text a{
+  font-size: 11pt;
+}
+.footer_copy{
+  color: #adadad;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.foon-nav.footer_text ul li {
+  margin: 20px 10px;
+}
+
+.seo_text_title, .seo_text h3{
+  text-align: center;
+  color: #414141;
+}

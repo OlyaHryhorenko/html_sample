@@ -1,0 +1,181 @@
+#pages {
+	background-color: #606a70;
+}
+.header-cont {
+	/*max-width: 1000px;*/
+	margin: 0 auto;
+}
+.home a {
+	font-family: Californian FB;
+	text-decoration: none;
+	font-size: 20pt;
+	color: #ffffff;
+	padding: 50px 10px;
+	display: inline-block; 
+	position: relative;
+}
+.home a p,
+.nav-cont a p,
+.reg-cont a p {
+	position: relative;
+	margin: 0;
+}
+
+span.flag {
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: none;
+	top: 0;
+	left: 0;
+	border-style: solid;
+	border-color: #784f8e #784f8e transparent;
+	position: absolute;
+	opacity: 0.5;
+}
+
+#myssay-fl {
+	border-width: 50px 90px 30px;
+}
+
+#ord-fl {
+	border-width: 50px 40px 30px;
+}
+#price-fl {
+	border-width: 50px 35px 30px;
+}
+#sample-fl {
+	border-width: 50px 50px 30px;
+}
+#faq-fl {
+	border-width: 50px 27px 30px;
+}
+#log-fl {
+	border-width: 50px 37px 30px;
+}
+#reg-fl {
+	border-width: 50px 52px 30px;
+}
+
+.active {
+	display: block!important;
+}
+.home a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+.home {
+	padding: 0;
+}
+.home img {
+	padding-right: 5px;
+	display: inline-block;
+}
+.nav-cont{
+	text-align: center;	
+}
+.reg-cont {
+	text-align: right;
+	padding:0;
+}
+.reg-cont ul {
+	margin: 0;
+	padding: 0;
+}
+
+.main-nav li {
+	margin: 0 15px;
+}
+span.reg-li {
+	margin: 0 10px;
+}
+.main-nav li,
+.reg-cont li{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 12pt;
+	color: #ffffff;
+}
+.main-nav li a,
+.reg-cont li a {
+	text-decoration: none;
+	font-family: Calibry;
+	padding: 55px 10px;
+	display: inline-block;
+	color: #ffffff;
+	position: relative;
+}
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+	.home a {
+		padding: 50px 0 50px 5px;
+	}
+
+}
+
+
+@media screen and (max-width:991px) {
+	.home a {
+		font-size: 15pt;
+		padding: 30px 0 5px 0;
+		display: inline-block;
+	}
+	.home img {
+		width: 25px;
+		height: 15px;
+		display: inline-block;
+	}
+	.home {
+		text-align: center;
+	}
+	.main-nav li {
+		margin: 0 5px;
+		font-size: 11pt;
+	}
+	.main-nav li a,
+	.reg-cont li a {
+		padding: 10px 5px;
+	}
+	.reg-cont {
+		text-align: center;
+	}
+	.reg-cont li {
+		font-size: 11pt;
+	}
+}
+
+
+
+@media screen and (max-width:600px) {
+	.home a {
+		font-size: 12pt;
+	}
+	.main-nav li,
+	.reg-cont li {
+		font-size: 10pt;
+	}
+}
+
+
+
+@media screen and (max-width:400px) {
+	.home a {
+		font-size: 11pt;
+	}
+	.home img {
+		width: 10px;
+		height: 10px;
+		padding-right: 0px;
+		margin-right: 5px;
+	}
+	.main-nav li,
+	.reg-cont li {
+		font-size: 8pt;
+	}
+}
+

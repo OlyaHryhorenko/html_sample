@@ -1,0 +1,172 @@
+.samples-screen {
+	background-image: url(../img/samples-img.png);
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	padding: 30px 10px;
+}
+
+
+.samples-cont h1 {
+	border-bottom: 2px solid #ffffff;
+	font-size: 60pt;
+	display: inline-block;
+	margin-top: -30px;
+	margin-bottom: 0;
+	padding: 20px;
+}
+
+.samples-cont h3 {
+	font-size: 14pt;
+	width: 80%;
+	margin: 20px auto 30px auto;
+}
+
+
+.img-top {
+	width: 25%;
+	display: block;
+	margin: 0 auto;
+}
+
+.marg {
+	margin-bottom: 50px;
+}
+
+.samples-cont h4{
+	text-align: left;
+	color: #c9b5d4;
+	font-size: 16pt;
+}
+.img-bottom {
+	width: 50%;
+	margin: 10px auto;
+	padding-top: 50px;
+	display: block;
+}
+.examples:hover {
+	background-color: rgba(255,255,255, 0.1);
+
+}
+
+.examples {
+	opacity: 0;
+}
+
+.examples a {
+	text-decoration: none;
+}
+
+.ex-text {
+	width: 80%;
+	height: 80%;
+	font-size: 18pt;
+	margin: 0 auto;
+
+}
+
+.ex-text span {
+	display: inline-block;
+	width: 50%;
+	font-size: 12pt;
+}
+span.r-text {
+	text-align: right;
+}
+
+span.l-text {
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1160px) {
+	.samples-cont  h1 {
+		font-size: 40pt;
+	}
+	
+	.samples-cont  h3 {
+		font-size: 15pt;
+		width: 65%;
+	}
+	
+}
+
+
+
+
+	@media screen and (max-width:768px) {
+	.samples-cont h1 {
+		font-size: 25pt;
+		margin-top: -10px;
+	}
+		.samples-cont  h3 {
+		font-size: 11pt;
+	}
+	.ex-text {
+		width: 60%;
+		font-size: 14pt;
+	}
+	.ex-text h4 {
+		font-size: 14pt;
+	}
+}	
+
+
+
+
+@media screen and (max-width:667px) {
+	.samples-cont  h1 {
+		font-size: 20pt;
+	}
+	.samples-cont  h3 {
+		font-size: 10pt;
+		width: 80%;
+	}
+	
+}
+
+
+
+
+ 	
+
+@media screen and (max-width:375px) {
+	.samples-cont  h1 {
+		font-size: 18pt;
+	}
+	.samples-cont  h3 {
+		font-size: 9pt;
+	}
+	.ex-text {
+		font-size: 12pt;
+		width: 90%;
+	}
+	.ex-text h4 {
+		font-size: 10pt;
+		text-align: center;
+	}
+		.ex-text span {
+		font-size: 10pt;
+	}
+	.
+	span.r-text {
+	text-align: right;
+	width: 65%;
+}
+
+	span.l-text {
+	text-align: left;
+	width: 35%;
+}
+.img-bottom {
+	padding-top: 20px;
+}
+
+}

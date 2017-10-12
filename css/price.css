@@ -1,0 +1,238 @@
+.price-screen {
+	background-image: url(../img/faq-img.png);
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	padding: 30px 10px;
+}
+.wrapper {
+	margin: 0px auto;
+}
+
+.img-rot {
+	width: 25%;
+	margin:0px auto 30px auto;
+
+}
+.tabs {
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.tab {
+	cursor: pointer;
+	width: 50%;
+	display: inline-block;
+	float: left;
+	font-size: 26pt;
+	z-index: 100;
+
+}
+.tab p {
+	margin: 0;
+	display: inline-block;
+	padding: 10px 0;
+}
+.tab p:hover {
+	color: #c7b3d2;
+}
+
+.act {
+	color:#c7b3d2;
+	border-bottom: 2px solid #ffffff;
+	padding-bottom: 8px;
+}
+
+.stripe {
+	width: 1%;
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	left: 50%;
+	font-size: 30px;
+	color: #cfcfcf;
+}
+.tab_content {
+	width: 100%;
+	margin-top: 70px;
+	overflow: hidden;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+table td {
+	width: 16.6666%;
+	border-left: 1px solid #909598;
+	font-size: 16pt;
+	padding: 20px;
+}
+table td:first-child {
+	border: 0;
+}
+table th {
+	font-size: 14pt;
+}
+.img-bottom {
+	width: 50%;
+	margin: 20px auto;
+	display: block;
+}
+@media screen and (min-width:1600px) {
+	.tab {
+		font-size: 32pt;
+	}
+	.tab_suere_two {
+		right: 560px;
+	}
+	.stripe {
+		width: 1%;
+		top: 5px;
+		left: 50%;
+		font-size: 45px;
+	}
+	table td {
+		font-size: 20pt;
+		padding: 25px;
+	}
+	table th {
+		font-size: 17pt;
+	}
+
+}
+
+@media screen and (max-width:1280px) {
+	.tab {
+		font-size: 22pt;
+		padding: 10px 0;
+	}
+	.tab_suere_two {
+		right: 400px;
+	}
+}
+
+
+@media screen and (max-width:1024px) {
+	.tab {
+		font-size: 18pt;
+		padding: 10px 0;
+	}
+
+	table td {
+		font-size: 14pt;
+		padding: 15px;
+	}
+	table th {
+		font-size: 12pt;
+	}
+}
+
+@media screen and (max-width:890px) {
+	.wrapper {
+		margin-top: 20px;
+	}
+	.tab_content {
+		margin-top: 30px;
+	}
+	.tab {
+		font-size: 15pt;
+		padding: 5px 0;
+	}
+	.tab_suere {
+		width: 25px;
+		height: 25px;
+		top: 5px;
+	}
+	.tab-one p {
+		margin-left: 40px;
+	}
+	.tab_suere_two {
+		right: 285px;
+	}
+
+	table td {
+		font-size: 12pt;
+		padding: 10px;
+	}
+	table th {
+		font-size: 10pt;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.tab {
+		font-size: 12pt;
+		padding: 5px 0;
+	}
+	.tab_suere {
+		width: 20px;
+		height: 20px;
+		top: 5px;
+	}
+	.tab-one p {
+		margin-left: 30px;
+	}
+	.tab_suere_two {
+		right: 230px;
+	}
+	table td {
+		font-size: 10pt;
+		padding: 5px;
+	}
+	table th {
+		font-size: 8pt;
+	}
+}
+@media screen and (max-width:610px) {
+	.wrapper {
+		width: 98%;
+	}
+	.tab {
+		font-size: 10pt;
+		padding: 5px 0;
+	}
+	.tab_suere {
+		width: 15px;
+		height: 15px;
+		top: 5px;
+	}
+	.tab-one p {
+		margin-left: 50px;
+	}
+	table td {
+		font-size: 7pt;
+		padding: 3px;
+	}
+	table th {
+		font-size: 6pt;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.tab {
+		font-size: 6pt;
+	}
+	.tab_suere {
+		width: 10px;
+		height: 10px;
+		top: 7px;
+	}
+	.tab-one p {
+		margin-left: 50px;
+	}
+	.tab-two p {
+		margin-right: 35px;
+	}
+
+	table th {
+		font-size: 3.5pt;
+	}
+	.stripe {
+		top: 0px;
+	}
+
+}
